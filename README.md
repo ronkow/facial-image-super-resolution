@@ -32,13 +32,13 @@ Best SRResNet model.
 Annotation file.  
 `./data/train_ann.txt` 			
 
-Training logs (txt and json) for SRResNet.  
+Training logs (txt and json) for SRResNet.     
 `./srresnet_logs/*`
 
-Complete training logs used to plot the training curves for SRResNet.			
+Complete training logs used to plot the training curves for SRResNet.   			
 `./srresnet_logs/srresnet.json`		
 
-Training logs (txt and json) for RRDBNet.  
+Training logs (txt and json) for RRDBNet.     
 `./rrdbnet_logs/*`
 
 Complete training logs used to plot the training curves for RRDBNet.  			
@@ -63,7 +63,7 @@ Create and activate a conda virtual environment.
 Install the GPU version of PyTorch and Torchvision.  
 `conda install pytorch=1.11.0 torchvision cudatoolkit=10.2 -c pytorch`
 
-Install MMCV for GPU.
+Install MMCV for GPU.  
 `pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.11.0/index.html`  
 
 Install MMEditing.  
