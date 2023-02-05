@@ -4,12 +4,12 @@ This project uses the MMEditing library from Open-MMLab to improve the resolutio
 
 **MODULES**
 
-`test.py` Module for generating HQ test images from the SRResNet model.
-`annotation.py` Module for generating the training annotation file.
-`plot.py` Module for reading json logs files and plotting the training curves in the report.
-`srresnet_project.py` Modifed configuration file for SRResNet.
-`esrgan_project_psnr.py` Modified configuration file for RRDBNet.
-`esrgan_project.py` Modified configuration file for ESRGAN module (for future work).
+`test.py` Module for generating HQ test images from the SRResNet model.  
+`annotation.py` Module for generating the training annotation file.  
+`plot.py` Module for reading json logs files and plotting the training curves in the report.  
+`srresnet_project.py` Modifed configuration file for SRResNet.  
+`esrgan_project_psnr.py` Modified configuration file for RRDBNet.  
+`esrgan_project.py` Modified configuration file for ESRGAN module (for future work).  
 
 **FILES**  
    
@@ -54,9 +54,9 @@ Install MMCV for GPU.
 `pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.11.0/index.html`  
 
 Install MMEditing.  
-`git clone https://github.com/open-mmlab/mmediting.git`
-`cd mmediting`
-`pip install -v -e`
+`git clone https://github.com/open-mmlab/mmediting.git`  
+`cd mmediting`  
+`pip install -v -e`  
 
 Go back to the current directory.  
 `cd ..`
@@ -65,9 +65,8 @@ Move all directories and files in this package to the current directory.
 The directory structure will be:
 
 ```
-./best_model_HQimages/
+./best_model/
 	iter_285.pth
-	srresnet_285k.zip
 ./data/
 	test/
 		HQ/
