@@ -1,35 +1,48 @@
 # image-super-resolution
 
-This project uses the MMEditing library from Open-MMLab to improve the resolution of facial images.
+This project uses the MMEditing library from Open-MMLab to improve the resolution of facial images.  
+
+https://github.com/open-mmlab
 
 **MODULES**
 
-`test.py` Module for generating HQ test images from the SRResNet model.  
-`annotation.py` Module for generating the training annotation file.  
-`plot.py` Module for reading json logs files and plotting the training curves in the report.  
-`srresnet_project.py` Modifed configuration file for SRResNet.  
-`esrgan_project_psnr.py` Modified configuration file for RRDBNet.  
-`esrgan_project.py` Modified configuration file for ESRGAN module (for future work).  
+Module for generating HQ test images from the SRResNet model.  
+`test.py`             
+
+Module for generating the training annotation file.  
+`annotation.py`       
+
+Module for reading json logs files and plotting the training curves in the report.  
+`plot.py`          
+
+Modifed configuration file for SRResNet.  
+`srresnet_project.py`   
+
+Modified configuration file for RRDBNet.  
+`esrgan_project_psnr.py`   
+
+Modified configuration file for ESRGAN module (for future work).   
+`esrgan_project.py` 
 
 **FILES**  
    
-Checkpoint for the best SRResNet model.  
-`/project/best_model/iter_285.pth` 
+Best SRResNet model.  
+`./best_model/iter_285.pth` 
 
 Annotation file.  
-`/project/data/train_ann.txt` 			
+`./data/train_ann.txt` 			
 
 Training logs (txt and json) for SRResNet.  
-`/project/srresnet_logs/*`
+`./srresnet_logs/*`
 
 Complete training logs used to plot the training curves for SRResNet.			
-`/project/srresnet_logs/srresnet.json`		
+`./srresnet_logs/srresnet.json`		
 
 Training logs (txt and json) for RRDBNet.  
-`/project/rrdbnet_logs/*`
+`./rrdbnet_logs/*`
 
 Complete training logs used to plot the training curves for RRDBNet.  			
-`/project/rrdbnet_logs/rrdbnet.json`		
+`./rrdbnet_logs/rrdbnet.json`		
  
 
 Links to Checkpoint File and HQ images:  
@@ -54,12 +67,12 @@ Install MMCV for GPU.
 `pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.11.0/index.html`  
 
 Install MMEditing.  
-`git clone https://github.com/open-mmlab/mmediting.git`  
+`git clone https://github.com/open-mmlab/mmediting.git`    
 `cd mmediting`  
 `pip install -v -e`  
 
 Go back to the current directory.  
-`cd ..`
+`cd ..`  
 
 Move all directories and files in this package to the current directory.
 The directory structure will be:
