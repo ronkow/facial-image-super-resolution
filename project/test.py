@@ -67,9 +67,9 @@ def main(config_path, checkpoint_path, INPUT_DIR, OUTPUT_DIR):
 if __name__ == '__main__':
 
     config_path = './srresnet_project.py'
-    checkpoint_path = './best_model_HGimages/iter_285k.pth'
+    checkpoint_path = './best_model/iter_285k.pth'
 
     INPUT_DIR = './test/LQ/' 
-    OUTPUT_DIR = './best_model_HGimages/'
+    OUTPUT_DIR = './best_model/'
  
     main(config_path, checkpoint_path, INPUT_DIR, OUTPUT_DIR)
