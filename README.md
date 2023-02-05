@@ -1,6 +1,6 @@
 # image-super-resolution
 
-
+This project uses the MMEditing library from Open-MMLab to improve the resolution of facial images.
 
 **MODULES**
 
@@ -11,17 +11,25 @@
 `esrgan_project_psnr.py` Modified configuration file for RRDBNet.
 `esrgan_project.py` Modified configuration file for ESRGAN module (for future work).
 
+**FILES**  
+   
+Checkpoint for the best SRResNet model.  
+`/project/best_model/iter_285.pth` 
 
-`/project/best_model_HQimages/iter_285.pth`	Checkpoint for the best SRResNet model.
-`/project/best_model_HQimages/srresnet_285k.zip`	Zipped file containing 400 HQ images from the best model.
+Annotation file.  
+`/project/data/train_ann.txt` 			
 
-`/project/data/train_ann.txt`			Annotation file.
+Training logs (txt and json) for SRResNet.  
+`/project/srresnet_logs/*`
 
-`/project/srresnet_logs/*`			Training logs (txt and json) for SRResNet.
-`/project/srresnet_logs/srresnet.json`		Complete training logs used to plot the training curves for SRResNet.
+Complete training logs used to plot the training curves for SRResNet.			
+`/project/srresnet_logs/srresnet.json`		
 
-`/project/rrdbnet_logs/*`			Training logs (txt and json) for RRDBNet.
-`/project/rrdbnet_logs/rrdbnet.json`		Complete training logs used to plot the training curves for RRDBNet.
+Training logs (txt and json) for RRDBNet.  
+`/project/rrdbnet_logs/*`
+
+Complete training logs used to plot the training curves for RRDBNet.  			
+`/project/rrdbnet_logs/rrdbnet.json`		
  
 
 Links to Checkpoint File and HQ images:  
