@@ -1,0 +1,1 @@
+Folder for ground truth training images.

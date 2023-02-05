@@ -1,0 +1,1 @@
+Folder for high quality test images.

@@ -1,0 +1,1 @@
+Folder for ground truth validation images.

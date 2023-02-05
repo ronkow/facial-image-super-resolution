@@ -1,0 +1,1 @@
+Folder for low quality validation images.

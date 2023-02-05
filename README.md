@@ -1,5 +1,7 @@
 # image-super-resolution
 
+
+
 **MODULES**
 
 `test.py` Module for generating HQ test images from the SRResNet model.
@@ -10,16 +12,16 @@
 `esrgan_project.py` Modified configuration file for ESRGAN module (for future work).
 
 
-`../best_model_HQimages/iter_285.pth`	Checkpoint for the best SRResNet model.
-`../best_model_HQimages/srresnet_285k.zip`	Zipped file containing 400 HQ images from the best model.
+`/project/best_model_HQimages/iter_285.pth`	Checkpoint for the best SRResNet model.
+`/project/best_model_HQimages/srresnet_285k.zip`	Zipped file containing 400 HQ images from the best model.
 
-`../data/train_ann.txt`			Annotation file.
+`/project/data/train_ann.txt`			Annotation file.
 
-`../srresnet_logs/*`			Training logs (txt and json) for SRResNet.
-`../srresnet_logs/srresnet.json`		Complete training logs used to plot the training curves for SRResNet.
+`/project/srresnet_logs/*`			Training logs (txt and json) for SRResNet.
+`/project/srresnet_logs/srresnet.json`		Complete training logs used to plot the training curves for SRResNet.
 
-`../rrdbnet_logs/*`			Training logs (txt and json) for RRDBNet.
-`../rrdbnet_logs/rrdbnet.json`		Complete training logs used to plot the training curves for RRDBNet.
+`/project/rrdbnet_logs/*`			Training logs (txt and json) for RRDBNet.
+`/project/rrdbnet_logs/rrdbnet.json`		Complete training logs used to plot the training curves for RRDBNet.
  
 
 Links to Checkpoint File and HQ images:  
@@ -42,7 +44,6 @@ Install the GPU version of PyTorch and Torchvision.
 
 Install MMCV for GPU.
 `pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.11.0/index.html`  
-`cd mmsegmentation`
 
 Install MMEditing.  
 `git clone https://github.com/open-mmlab/mmediting.git`
@@ -84,7 +85,4 @@ srresnet_project.py
 annotation.py
 plot.py
 test.py
-README.txt
-requirements.txt
-report.pdf
 ```
