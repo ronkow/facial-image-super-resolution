@@ -35,13 +35,13 @@ Annotation file.
 Training logs (txt and json) for SRResNet.     
 `./srresnet_logs/*`
 
-Complete training logs used to plot the training curves for SRResNet.   			
+Complete training logs used to plot the training curves for SRResNet.    
 `./srresnet_logs/srresnet.json`		
 
 Training logs (txt and json) for RRDBNet.     
 `./rrdbnet_logs/*`
 
-Complete training logs used to plot the training curves for RRDBNet.  			
+Complete training logs used to plot the training curves for RRDBNet.    
 `./rrdbnet_logs/rrdbnet.json`		
  
 
